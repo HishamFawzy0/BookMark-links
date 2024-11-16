@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./imgs/icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <title>BookMarks</title>
+  </head>
+  <body>
+    <header class="text-center my-5">
+      <div class="header mx-auto">
+        <h1>Bookmarker</h1>
+      </div>
+
+      <div class="container">
+        <div class="my-border my-5"></div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+          <div
+            class="text-center d-flex align-items-baseline justify-content-center back-grdieant"
+          >
+            <i class="fas fa-bookmark fs-2"></i>
+            <h2 class="text-center mx-1">Bookmark your favorite sites</h2>
+            <i class="fas fa-bookmark fs-2"></i>
+          </div>
+
+          <!-- INPUT 1 -->
+          <div>
+            <i class="fa-solid fa-book-bookmark pe-2 fs-6"></i>
+            <label for="site" class="form-label fs-6 fw-bolder">
+              Site Name</label
+            >
+            <input
+              type="text"
+              placeholder="Bookmark Name"
+              class="form-control"
+              id="siteName"
+            />
+          </div>
+
+
+          <!-- INPUT 2 -->
+          <div class="mt-4">
+            <i class="fa-solid fa-link pe-2 fs-6"></i>
+            <label for="site" class="form-label fs-6 fw-bolder"> URL</label>
+            <input
+              type="url"
+              placeholder="Website URL"
+              class="form-control"
+              id="siteUrl"
+            />
+          </div>
+          <div class="mt-2 text-center">
+            <button id="btnAdd" onclick="addBookmark()" class="px-5 btn  mt-4 submit">Submit</button>
+            <button id="btnUpdate" onclick="update(z)" class="px-5 btn mt-4 d-none update">Update</button>
+          </div>
+          <div class="my-border my-3"></div>
+        </div>
+      </section>
+                                    <!-- table -->
+      <section>
+        <div class="container">
+        <input id="search" oninput="filterTable()" type="search" class="form-control my-2" placeholder="Search by Website Name" aria-label="Search">
+
+          <table class="table">
+            <thead>
+              <tr class="text-center">
+                <th scope="col text">index</th>
+                <th scope="col">Website Name</th>
+                <th scope="col">Visit</th>
+                <th scope="col">Delete</th>
+                <th scope="col">Update</th>
+              </tr>
+            </thead>
+            <tbody id="tbody"  class="text-center">
+                
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- <script src="./js/all.min.js"></script> -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
