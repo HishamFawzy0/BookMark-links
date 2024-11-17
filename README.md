@@ -15,9 +15,9 @@ A simple, user-friendly web application to store, manage, and access your favori
 
 5-Validation:
 
-  1-Ensures the website name doesn't start with a number.
+     1-Ensures the website name doesn't start with a number.
   
-  2- Validates URL formats to avoid invalid entries.
+     2- Validates URL formats to avoid invalid entries.
 
 6-Persistent Storage: Uses localStorage to retain bookmarks even after refreshing the page.
 
