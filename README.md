@@ -3,7 +3,7 @@ A simple, user-friendly web application to store, manage, and access your favori
 
 
 
-##Features
+## Features
 
 1- Add Bookmarks: Save your favorite websites by providing a name and a valid URL.
 2- Update Bookmarks: Modify the name or URL of existing bookmarks.
@@ -18,7 +18,7 @@ A simple, user-friendly web application to store, manage, and access your favori
 
 
 
-##Technologies Used
+## Technologies Used
 1- HTML5
 2- CSS3 (with Bootstrap for styling)
 3- JavaScript
