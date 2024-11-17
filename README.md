@@ -20,6 +20,8 @@ A simple, user-friendly web application to store, manage, and access your favori
 
 ## Technologies Used
 1- HTML5
+
 2- CSS3 (with Bootstrap for styling)
+
 3- JavaScript
   
