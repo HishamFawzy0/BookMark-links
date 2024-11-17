@@ -6,14 +6,21 @@ A simple, user-friendly web application to store, manage, and access your favori
 ## Features
 
 1- Add Bookmarks: Save your favorite websites by providing a name and a valid URL.
+
 2- Update Bookmarks: Modify the name or URL of existing bookmarks.
+
 3- Delete Bookmarks: Remove unwanted bookmarks with a single click.
+
 4- Search Bar: Easily find bookmarks by their name.
+
 5-Validation:
+
   1-Ensures the website name doesn't start with a number.
+  
   2- Validates URL formats to avoid invalid entries.
 
 6-Persistent Storage: Uses localStorage to retain bookmarks even after refreshing the page.
+
 7- Responsive Design: A clean and responsive interface built with Bootstrap.
 
 
